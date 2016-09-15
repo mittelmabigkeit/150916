@@ -6,3 +6,6 @@ var sumBellForGoTo={
 }
 for (var a in sumBellForGoTo)
 	console.log(a);
+
+delete sumBellForGoTo["num"];
+console.log(sumBellForGoTo);
