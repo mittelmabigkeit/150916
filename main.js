@@ -29,3 +29,11 @@ for (var l in exampleobject)
 
 var obj = new Object({q:8,w:"asd",e:4.4,r:true,t:{aaa:111,two:222}})
 console.log(obj);
+
+function solution(exampleobject,obj){
+for (bag in obj) {
+	exampleobject[bag]=obj[bag];
+}
+return exampleobject
+}
+console.log(l);
